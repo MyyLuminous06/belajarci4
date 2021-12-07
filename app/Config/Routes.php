@@ -50,6 +50,9 @@ $routes->post('/hitung/proses', 'Web::proses');
 $routes->get('/luas', 'Web::luas');
 $routes->post('/luas/segitiga', 'Web::luas');
 
+//route untuk employe
+$routes->get('/employe', 'Employe::index');
+$routes->post('/employe', 'Employe::save');
 /*
  * --------------------------------------------------------------------
  * Additional Routing

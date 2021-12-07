@@ -3,6 +3,7 @@
 <?= $this->section('content'); ?>
 <div class="content">
 	<h2 align="center">CRUD Employe</h2>
+	<a href="/employe/create">Tambah Data</a>
 	<table border="1" align="center">
 		<tr>
 			<th>ID</th>
